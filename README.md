@@ -28,7 +28,36 @@
 - `index.html` — Root landing page
 
 ---
+# 🌍 Global Voyage — Travel Destination Recommender
 
+Global Voyage is a responsive web application that helps users explore and plan personalized travel experiences. It features a **Travel Recommender** tool powered by the **Amadeus API** that dynamically suggests flight options based on user preferences.
+
+## ✨ Project Purpose
+
+This project was created to support travelers in making informed travel decisions. By allowing users to input their **budget**, **preferred weather**, **activities**, **travel dates**, and **distance**, the recommender system fetches real-time travel data and provides tailored flight options. The goal is to enhance trip planning and expand travel business reach through smart destination recommendations.
+
+---
+
+## 📦 Features
+
+- ✅ Responsive design for desktop, tablet, and mobile
+- ✅ Grid-based layout for user-friendly interaction
+- ✅ Custom travel preferences form
+- ✅ Real-time flight recommendations via Amadeus API
+- ✅ Loading and error handling
+- ✅ Modern, clean interface with Tailwind, Bootstrap, and Google Fonts
+
+---
+
+## 🛠 Technologies Used
+
+- **HTML5**
+- **CSS3 (custom + Bootstrap + Tailwind utility classes)**
+- **JavaScript (ES6)**
+- **Amadeus Travel API**
+- **Font Awesome + Google Fonts**
+
+---
 ## 🛠️ Tech Stack
 
 - HTML5  
