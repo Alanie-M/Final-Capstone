@@ -18,7 +18,6 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
-  </head>
 <body>
      <!-- Navbar Here -->
     <nav class="bg-gray-100 px-8 py-7">
@@ -54,21 +53,6 @@
             <a href="https://juanjbsalas.github.io/Global-Voyage/contact" class="w-full hover:bg-sky-400 px-3 py-2 rounded nav-link">Contact</a>
         </div>
     </div>    
-    <script>
-        const toggleButton = document.getElementById('menu-toggle');
-        const menuIcon = document.getElementById('menu-icon');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        toggleButton.addEventListener('click', function(){
-            mobileMenu.classList.toggle('hidden');
-
-            if(menuIcon.classList.contains('fa-bars')) {
-                menuIcon.classList.replace('fa-bars', 'fa-xmark');
-            } else {
-                menuIcon.classList.replace('fa-xmark', 'fa-bars');
-            }
-        });
-    </script>
     <!-- Nav Bar ends here -->
 
     <main>
@@ -199,5 +183,20 @@
      </footer>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
      <script src="app.js"></script>
+            <script>
+        const toggleButton = document.getElementById('menu-toggle');
+        const menuIcon = document.getElementById('menu-icon');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        toggleButton.addEventListener('click', function(){
+            mobileMenu.classList.toggle('hidden');
+
+            if(menuIcon.classList.contains('fa-bars')) {
+                menuIcon.classList.replace('fa-bars', 'fa-xmark');
+            } else {
+                menuIcon.classList.replace('fa-xmark', 'fa-bars');
+            }
+        });
+    </script>
 </body>
 </html>
