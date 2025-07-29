@@ -18,7 +18,6 @@ async function getAccessToken() {
   return data.access_token;
 }
 
-
 // Step 2: Call Amadeus flight offers endpoint
 async function getFlightOffers(token, origin, destination, departureDate) {
   const url = `https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=${origin}&destinationLocationCode=${destination}&departureDate=${departureDate}&adults=1&max=3`;
@@ -30,7 +29,6 @@ async function getFlightOffers(token, origin, destination, departureDate) {
 
   return await response.json();
 }
-
 
 // Step 3: Handle form submit
 document.getElementById("travelForm").addEventListener("submit", async (e) => {
